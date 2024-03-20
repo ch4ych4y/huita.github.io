@@ -1,0 +1,471 @@
+body{
+	background-color: #eec824;	
+	font-family: Arial;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	width: 60%;
+	height: 2250px;
+	background-color: white;
+	margin: 50px;
+	position: relative;
+	box-shadow: 0 0 100px #CD5700;
+}
+.top{
+	width: 100%;
+	height: 500px;
+	background-image: url(img/dogyellow.jpg);
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+.top1{
+	width: 1080px;
+	height: 70px;
+	position: absolute;
+	margin: 20px 20px 0px 20px;
+}
+.logo{
+	width: 220px;
+	height: 100%;
+	background-image:url(https://bagra.ru/logos/httpvetgrandru.png) ;
+	float: left;
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	position: relative;
+}
+.top1 a{
+	color: black; 
+}
+.ourServinios, .aboutUs{
+	width: 120px;
+	height: 100%;
+	float: left;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+.registration{
+	height: 40px;
+	margin: 5px;
+	line-height: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 5px;
+	float: right;
+	width: 150px;
+	background-color: white;
+}
+.reviews{
+	width: 130px;
+	background-color: #1f456e;
+	color: white;
+}
+.top2{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	top: 120px;
+	right: 300px;
+	font-weight: bold;
+}
+.text1{
+	width: 300px;
+	height: 120px;
+	position: relative;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: left;
+}
+.text2{
+	width: 300px;
+	height: 130px;
+	position: relative;
+	font-weight: bold;
+	text-align: left;
+}
+.button{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	font-weight: bold;
+}
+.btn1{
+	width: 145px;
+	height: 40px;
+	margin: 5px 5px 5px 0px;
+	background-color: #1f456e;
+	float: left;
+	line-height: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 5px;
+	color: white;
+}
+.btn1 a{
+	color: white;
+}
+.btn2{
+	width: 130px;
+	height: 40px;
+	margin: 5px;
+	background-color: #88bece;
+	float: left;
+	line-height: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 5px;
+	color: #1f456e;
+}
+.btn2 a{
+	color: #1f456e;
+}
+.lenta{
+	width: 100%;
+	height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #f2dc99;
+}
+.lenta a {
+	color: black;
+}
+.lenta1{
+	width: 122px;
+	height: 100%;
+	float: left;
+}
+.lenta2, .lenta3{
+	width: 61px;
+	height: 100%;
+	float: left;
+}
+.lenta4, .lenta5{
+	height: 100%;
+	float: left;
+	font-weight: bold;
+	line-height: 50px;
+}
+.lenta4{
+	width: 250px;
+}
+.lenta5{
+	width: 200px;
+}
+.lenta6, .lenta7, .lenta8{
+	width: 170px;
+	height: 100%;
+	float: left;
+	font-weight: bold;
+	line-height: 50px;
+}
+.foto{
+	width: 100%;
+	height: 550px;
+	background-image: url(img/catdog.jpg);
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+.center{
+	width: 300px;
+	height: 400px;
+	position: relative;
+	top: 80px;
+	right: 300px;
+	font-weight: bold;
+}
+
+.text3{
+	width: 300px;
+	height: 120px;
+	position: relative;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: left;
+}
+.text4{
+	width: 300px;
+	height: 220px;
+	position: relative;
+	font-weight: bold;
+	text-align: left;
+}
+.button1{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	font-weight: bold;
+}
+.btn3, .btn4{
+	height: 40px;
+	float: left;
+	line-height: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	border-radius: 5px;
+}
+.btn3{
+	width: 145px;
+	margin: 5px 5px 5px 0px;
+	background-color: #1f456e;
+	color: white;
+}
+.btn3 a{
+	color: white;
+}
+.btn4{
+	width: 130px;
+	margin: 5px;
+	background-color: white;
+	color: #1f456e;
+	border: 1px solid #fcfcee;
+}
+.btn4 a{
+	color: #1f456e;
+}
+.center1{
+	width: 100%;
+	height: 550px;
+	position: relative;
+	background-color: #f2dc99;
+}
+.text5{
+	width: 100%;
+	height: 80px;
+	position: relative;
+	font-size: 30px;
+	line-height: 60px;
+}
+.facts, .facts1{
+	width: 100%;
+	height: 225px;
+	position: relative;
+}
+.fact1, .fact2, .fact3, .fact4, .fact5, .fact6{
+	width: 300px;
+	height: 180px;
+	position: relative;
+	font-size: 14px;
+	text-align: left;
+	float: left;
+}
+.fact1{
+	margin: 25px 25px 25px 50px;
+}
+.fact2{
+	margin: 25px;;
+}
+.fact3{
+	margin: 25px;
+}
+.fact4{
+	margin: 25px 25px 25px 50px;
+}
+.fact5{
+	margin: 25px;
+}
+.fact6{
+	margin: 25px;
+}
+.logo1, .logo2, .logo3, .logo4, .logo5, .logo6{
+	width: 40px;
+	height: 40px;
+	margin: 10px 0px;
+	background-size: 100%;
+	position: relative;
+}
+.logo1{
+	background-image: url(img/хромосома.png);
+}
+.logo2{
+	background-image: url(img/free-icon-first-aid-kit-15110919.png);
+}
+.logo3{
+	background-image: url(img/free-icon-doctor-15109909.png);
+}
+.logo4{
+	background-image: url(img/free-icon-healthcare-15109880.png);
+}
+.logo5{
+	background-image: url(img/free-icon-like-15171455.png);
+}
+.logo6{
+	background-image: url(img/free-icon-gravity-15130456.png);
+}
+.center3{
+	width: 300px;
+	height: 500px;
+	position: relative;
+	top: 100px;
+	left: 300px;
+	font-weight: bold;
+}
+.text12{
+	width: 300px;
+	height: 90px;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: left;
+
+}
+.text13{
+	width: 300px;
+	height: 180px;
+	font-weight: bold;
+	text-align: left;
+}
+.btn5{
+	width: 120px;
+	height: 40px;
+	margin: 5px;
+	background-color: white;
+	float: left;
+	line-height: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	right: 20px;
+	border-radius: 5px;
+	color: #1f456e;
+	border: 1px solid #fcfcee;
+}
+.btn5 a{
+	color:#1f456e;
+}
+.footer{
+	width: 100%;
+	height: 220px;
+	font-size: 16px;
+	background-color: #d8d7d8;
+	position: relative;
+	top: 30px;
+	font-size: 14px;
+}
+.line1{
+	width: 100%;
+	height: 120px;
+}
+.line2{
+	width: 100%;
+	height: 70px;
+	margin: 10px 0px 0px 50px;
+	text-align: left;
+	color: grey;
+	position: relative;
+	top: 25px;
+	font-size: 12px;
+}
+.block, .block1{
+	width: 230px;
+	height: 100%;
+	float: left;
+	position: relative;
+	top: 20px;
+}
+.block{
+	margin: 0px 10px 0px 50px;
+}
+.block1{
+	margin: 0px 10px 0px 20px;
+
+}
+.block2{
+	width: 200px;
+	height: 100px;
+	margin: 0px 50px 0px 20px;
+	float: right;
+	position: relative;
+	top: 20px;
+}
+.logo8, .logo7{
+	width: 100px;
+	height: 100px;
+	float:left;
+}
+.logo7{
+	background-image: url(icon/);
+}
+.logo8{
+	background-image: url(icon/);
+}
+
+.container{
+	width: 700px;
+	height: 480px;
+	border-radius: 30px;
+	box-shadow: 0 0 40px black;
+	margin: 50px;
+	background-color: black;
+}
+.form-container {
+    width: 250px;
+    height: 440px;
+    background: #f2f2f2;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-top-left-radius:30px ;
+    border-bottom-left-radius:30px;
+}
+.form-group {
+    margin-bottom: 10px;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.form-header {
+    text-align: center;
+}
+.image{
+	height: 100%;
+	width: 405px;
+	float: right;
+	border-top-right-radius:30px ;
+    border-bottom-right-radius:30px ;
+    background-size: 100%;
+	background-image: url(https://cdn.webshopapp.com/shops/204491/files/432670892/tips-voor-het-kiezen-van-een-hondenras-die-het-bes.jpg);
+}
+.ntb{
+	width: 250px;
+	height: 40px;
+	margin-top: 15px;
+}
+.ntb1{
+	width: 120px;
+	height: 100%;
+	float: left;
+	background-color:#eec824 ;
+	border-radius: 10px;
+}
+.ntb2{
+	width: 120px;
+	height: 100%;
+	float: right;
+	background-color: #a0dfdf;
+	border-radius: 10px;
+}
+.foto1{
+	width: 100%;
+	height: 500px;
+	background-image: url(img/птица.jpg);
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
